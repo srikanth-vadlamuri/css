@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+      width: 400px;
+      float: left;
+      margin-left: 20px;
+      margin-top: 20px;
+
+}
+ul{
+    list-style: none;
+    float: right;
+    padding-top:1px;
+
+}
+
+li{
+    display: inline;
+    margin-right: 5px;
+    color: cornflowerblue;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 2px;
+}
+li:hover{
+    color: goldenrod;
+    border: 1px solid black;
+    font: 20px bold ;
+    text-decoration: rgb(19, 19, 182);
+    background-color: rgb(175, 226, 198);
+    border-radius: 5Px;  
+    transition: all 0.5s ease;
+}
+
+header{
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+.messagecontainer{
+    top: 50%;
+    font-size: 100%;
+    position: absolute;
+    border: 1px solid rgb(220, 220, 220);
+    width: 50%;
+    left: 1%;
+    padding: 10px;
+    border-radius: 20;
+    font-weight: bold;
+    background:rgb(250, 238, 228);
+}
+.memessagetext{
+    float: left;
+    color: black;
+}
+.button{
+    
+  font: 20px bold ;
+  text-decoration: rgb(19, 19, 182);
+  background-color: rgb(175, 199, 226);
+  color: rgb(8, 6, 6);
+  padding: 2px 6px 2px 6px;
+  border: 4px black;
+  border-radius: 10Px;
+  border: 1px solid black;
+}
+
+

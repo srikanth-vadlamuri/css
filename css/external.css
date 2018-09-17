@@ -1,0 +1,48 @@
+.para3{
+    color: chocolate;
+    background-color: blanchedalmond;
+    text-align: center;
+   /* border: 2px solid black;*/
+   /*border-top: 1px double black;*/
+   border-bottom: 4px dotted green;
+   border-top-color:royalblue;
+   border-top-style: groove;
+
+}
+
+div{
+    border: 3px red solid;
+           border-image-slice: inherit;
+    }
+.layout1{
+    border-color: green;
+    width: 100px;
+    height: 200px;
+   
+}
+.layout2{
+    border-color: rgb(34, 0, 128);
+    width: 100px;
+    height: 200px;
+    float: right;
+    position: relative;
+
+}
+.layout3{
+
+    border-color:yellow;
+    width: 100px;
+    height: 200px;
+    float: right;
+    position: relative;
+
+}
+.layout3{
+
+    border-color:rgb(255, 0, 200);
+    width: 100px;
+    height: 200px;
+    float: right;
+    position: absolute;
+
+}
